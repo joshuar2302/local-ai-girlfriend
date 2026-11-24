@@ -1,0 +1,23 @@
+{
+  "module": "local-ai-girlfriend",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "persona": {
+      "enabled": true
+    },
+    "memory": {
+      "enabled": true
+    },
+    "voice": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
